@@ -194,7 +194,7 @@ print(f"Hello {name}! You are {age} years old.")
 """
 igor_photos = 232 # The total quantity of photos which Igor has
 photos_page = 8 # The max quantity of photos in one page
-pages_album = igor_photos // photos_page
+pages_album = -(igor_photos // -photos_page)
 
 print(f"Igor needs {pages_album} pages in his album to paste all his photos")
 
